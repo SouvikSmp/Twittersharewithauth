@@ -9,11 +9,25 @@
 /* Begin PBXBuildFile section */
 		CBD3393F1BAE8F19004797E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD3393E1BAE8F19004797E4 /* main.m */; };
 		CBD339421BAE8F19004797E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD339411BAE8F19004797E4 /* AppDelegate.m */; };
-		CBD339451BAE8F19004797E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD339441BAE8F19004797E4 /* ViewController.m */; };
+		CBD339451BAE8F19004797E4 /* twitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD339441BAE8F19004797E4 /* twitterViewController.m */; };
 		CBD339481BAE8F19004797E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD339461BAE8F19004797E4 /* Main.storyboard */; };
 		CBD3394A1BAE8F19004797E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD339491BAE8F19004797E4 /* Images.xcassets */; };
 		CBD3394D1BAE8F19004797E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD3394B1BAE8F19004797E4 /* LaunchScreen.xib */; };
 		CBD339591BAE8F19004797E4 /* TwitterShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD339581BAE8F19004797E4 /* TwitterShareTests.m */; };
+		CBD339641BAE8FBB004797E4 /* FHSTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD339631BAE8FBB004797E4 /* FHSTwitterEngine.m */; };
+		CBD339761BAE901F004797E4 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD339661BAE901F004797E4 /* NSString+URLEncoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CBD3397D1BAE901F004797E4 /* Base64TranscoderFHS.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD339741BAE901F004797E4 /* Base64TranscoderFHS.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CBD339811BAE9046004797E4 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CBD3397E1BAE9046004797E4 /* SVProgressHUD.bundle */; };
+		CBD339821BAE9046004797E4 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD339801BAE9046004797E4 /* SVProgressHUD.m */; };
+		CBD339841BAE919E004797E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD339831BAE919E004797E4 /* UIKit.framework */; };
+		CBD339861BAE91D2004797E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD339851BAE91D2004797E4 /* Foundation.framework */; };
+		CBD339BC1BAE9AB3004797E4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD339BB1BAE9AB3004797E4 /* Social.framework */; };
+		CBD339BE1BAE9ABA004797E4 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD339BD1BAE9ABA004797E4 /* Accounts.framework */; };
+		CBD339C91BAEA125004797E4 /* TWTAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD339C01BAEA125004797E4 /* TWTAPIManager.m */; };
+		CBD339CA1BAEA125004797E4 /* TWTSignedRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD339C21BAEA125004797E4 /* TWTSignedRequest.m */; };
+		CBD339CB1BAEA125004797E4 /* OAuth+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD339C41BAEA125004797E4 /* OAuth+Additions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CBD339CC1BAEA125004797E4 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD339C61BAEA125004797E4 /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CBD339CD1BAEA125004797E4 /* OAuthCore.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD339C81BAEA125004797E4 /* OAuthCore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +46,38 @@
 		CBD3393E1BAE8F19004797E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBD339401BAE8F19004797E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBD339411BAE8F19004797E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CBD339431BAE8F19004797E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CBD339441BAE8F19004797E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBD339431BAE8F19004797E4 /* twitterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = twitterViewController.h; sourceTree = "<group>"; };
+		CBD339441BAE8F19004797E4 /* twitterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twitterViewController.m; sourceTree = "<group>"; };
 		CBD339471BAE8F19004797E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBD339491BAE8F19004797E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CBD3394C1BAE8F19004797E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CBD339521BAE8F19004797E4 /* TwitterShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD339571BAE8F19004797E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBD339581BAE8F19004797E4 /* TwitterShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterShareTests.m; sourceTree = "<group>"; };
+		CBD339621BAE8FBB004797E4 /* FHSTwitterEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHSTwitterEngine.h; sourceTree = "<group>"; };
+		CBD339631BAE8FBB004797E4 /* FHSTwitterEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHSTwitterEngine.m; sourceTree = "<group>"; };
+		CBD339651BAE901F004797E4 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		CBD339661BAE901F004797E4 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		CBD339741BAE901F004797E4 /* Base64TranscoderFHS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64TranscoderFHS.m; sourceTree = "<group>"; };
+		CBD339751BAE901F004797E4 /* Base64TranscoderFHS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64TranscoderFHS.h; sourceTree = "<group>"; };
+		CBD3397E1BAE9046004797E4 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		CBD3397F1BAE9046004797E4 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		CBD339801BAE9046004797E4 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		CBD339831BAE919E004797E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CBD339851BAE91D2004797E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBD339881BAE953F004797E4 /* TwitterShare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwitterShare-Prefix.pch"; sourceTree = "<group>"; };
+		CBD339BB1BAE9AB3004797E4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CBD339BD1BAE9ABA004797E4 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		CBD339BF1BAEA125004797E4 /* TWTAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTAPIManager.h; sourceTree = "<group>"; };
+		CBD339C01BAEA125004797E4 /* TWTAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTAPIManager.m; sourceTree = "<group>"; };
+		CBD339C11BAEA125004797E4 /* TWTSignedRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTSignedRequest.h; sourceTree = "<group>"; };
+		CBD339C21BAEA125004797E4 /* TWTSignedRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTSignedRequest.m; sourceTree = "<group>"; };
+		CBD339C31BAEA125004797E4 /* OAuth+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OAuth+Additions.h"; sourceTree = "<group>"; };
+		CBD339C41BAEA125004797E4 /* OAuth+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OAuth+Additions.m"; sourceTree = "<group>"; };
+		CBD339C51BAEA125004797E4 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		CBD339C61BAEA125004797E4 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		CBD339C71BAEA125004797E4 /* OAuthCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthCore.h; sourceTree = "<group>"; };
+		CBD339C81BAEA125004797E4 /* OAuthCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthCore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +85,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBD339BE1BAE9ABA004797E4 /* Accounts.framework in Frameworks */,
+				CBD339BC1BAE9AB3004797E4 /* Social.framework in Frameworks */,
+				CBD339861BAE91D2004797E4 /* Foundation.framework in Frameworks */,
+				CBD339841BAE919E004797E4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +105,10 @@
 		CBD339301BAE8F19004797E4 = {
 			isa = PBXGroup;
 			children = (
+				CBD339BD1BAE9ABA004797E4 /* Accounts.framework */,
+				CBD339BB1BAE9AB3004797E4 /* Social.framework */,
+				CBD339851BAE91D2004797E4 /* Foundation.framework */,
+				CBD339831BAE919E004797E4 /* UIKit.framework */,
 				CBD3393B1BAE8F19004797E4 /* TwitterShare */,
 				CBD339551BAE8F19004797E4 /* TwitterShareTests */,
 				CBD3393A1BAE8F19004797E4 /* Products */,
@@ -81,10 +127,15 @@
 		CBD3393B1BAE8F19004797E4 /* TwitterShare */ = {
 			isa = PBXGroup;
 			children = (
+				CBD339CF1BAEC02C004797E4 /* Reverse Oauth */,
+				CBD339CE1BAEC008004797E4 /* FHTwitterEngine */,
+				CBD3397E1BAE9046004797E4 /* SVProgressHUD.bundle */,
+				CBD3397F1BAE9046004797E4 /* SVProgressHUD.h */,
+				CBD339801BAE9046004797E4 /* SVProgressHUD.m */,
 				CBD339401BAE8F19004797E4 /* AppDelegate.h */,
 				CBD339411BAE8F19004797E4 /* AppDelegate.m */,
-				CBD339431BAE8F19004797E4 /* ViewController.h */,
-				CBD339441BAE8F19004797E4 /* ViewController.m */,
+				CBD339431BAE8F19004797E4 /* twitterViewController.h */,
+				CBD339441BAE8F19004797E4 /* twitterViewController.m */,
 				CBD339461BAE8F19004797E4 /* Main.storyboard */,
 				CBD339491BAE8F19004797E4 /* Images.xcassets */,
 				CBD3394B1BAE8F19004797E4 /* LaunchScreen.xib */,
@@ -98,6 +149,7 @@
 			children = (
 				CBD3393D1BAE8F19004797E4 /* Info.plist */,
 				CBD3393E1BAE8F19004797E4 /* main.m */,
+				CBD339881BAE953F004797E4 /* TwitterShare-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +169,36 @@
 				CBD339571BAE8F19004797E4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBD339CE1BAEC008004797E4 /* FHTwitterEngine */ = {
+			isa = PBXGroup;
+			children = (
+				CBD339621BAE8FBB004797E4 /* FHSTwitterEngine.h */,
+				CBD339631BAE8FBB004797E4 /* FHSTwitterEngine.m */,
+				CBD339651BAE901F004797E4 /* NSString+URLEncoding.h */,
+				CBD339661BAE901F004797E4 /* NSString+URLEncoding.m */,
+				CBD339741BAE901F004797E4 /* Base64TranscoderFHS.m */,
+				CBD339751BAE901F004797E4 /* Base64TranscoderFHS.h */,
+			);
+			name = FHTwitterEngine;
+			sourceTree = "<group>";
+		};
+		CBD339CF1BAEC02C004797E4 /* Reverse Oauth */ = {
+			isa = PBXGroup;
+			children = (
+				CBD339BF1BAEA125004797E4 /* TWTAPIManager.h */,
+				CBD339C01BAEA125004797E4 /* TWTAPIManager.m */,
+				CBD339C11BAEA125004797E4 /* TWTSignedRequest.h */,
+				CBD339C21BAEA125004797E4 /* TWTSignedRequest.m */,
+				CBD339C31BAEA125004797E4 /* OAuth+Additions.h */,
+				CBD339C41BAEA125004797E4 /* OAuth+Additions.m */,
+				CBD339C51BAEA125004797E4 /* NSData+Base64.h */,
+				CBD339C61BAEA125004797E4 /* NSData+Base64.m */,
+				CBD339C71BAEA125004797E4 /* OAuthCore.h */,
+				CBD339C81BAEA125004797E4 /* OAuthCore.m */,
+			);
+			name = "Reverse Oauth";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +284,7 @@
 				CBD339481BAE8F19004797E4 /* Main.storyboard in Resources */,
 				CBD3394D1BAE8F19004797E4 /* LaunchScreen.xib in Resources */,
 				CBD3394A1BAE8F19004797E4 /* Images.xcassets in Resources */,
+				CBD339811BAE9046004797E4 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +302,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBD339451BAE8F19004797E4 /* ViewController.m in Sources */,
+				CBD339CD1BAEA125004797E4 /* OAuthCore.m in Sources */,
+				CBD339761BAE901F004797E4 /* NSString+URLEncoding.m in Sources */,
+				CBD339451BAE8F19004797E4 /* twitterViewController.m in Sources */,
 				CBD339421BAE8F19004797E4 /* AppDelegate.m in Sources */,
+				CBD339CC1BAEA125004797E4 /* NSData+Base64.m in Sources */,
+				CBD339CB1BAEA125004797E4 /* OAuth+Additions.m in Sources */,
+				CBD3397D1BAE901F004797E4 /* Base64TranscoderFHS.m in Sources */,
+				CBD339821BAE9046004797E4 /* SVProgressHUD.m in Sources */,
 				CBD3393F1BAE8F19004797E4 /* main.m in Sources */,
+				CBD339C91BAEA125004797E4 /* TWTAPIManager.m in Sources */,
+				CBD339CA1BAEA125004797E4 /* TWTSignedRequest.m in Sources */,
+				CBD339641BAE8FBB004797E4 /* FHSTwitterEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +380,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitterShare/TwitterShare-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -330,6 +424,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitterShare/TwitterShare-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -348,6 +444,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TwitterShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TwitterShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +514,7 @@
 				CBD3395E1BAE8F19004797E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBD3395F1BAE8F19004797E4 /* Build configuration list for PBXNativeTarget "TwitterShareTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +523,7 @@
 				CBD339611BAE8F19004797E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

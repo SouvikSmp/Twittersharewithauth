@@ -1,0 +1,27 @@
+//
+//  TwitterShare.pch
+//  TwitterShare
+//
+//  Created by Jayati Saha on 20/09/15.
+//  Copyright (c) 2015 Jayati Saha. All rights reserved.
+//
+
+#ifndef TwitterShare_TwitterShare_pch
+#define TwitterShare_TwitterShare_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <Security/Security.h>
+#endif
